@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcularora Web</title>
+    <link rel="stylesheet" href="Calculadora.css">
+</head>
+<body>
+    <div class="main">
+        <form class="container">
+            <input type="text" id="screenResults" class="screen" />
+            <input type="button" name="btnClear" class="clear" value="C" onclick="clearScreenResuls('')">
+            <br>
+            <input type="button" name="btn7" class="num" value="7" onclick="getValue('7')">
+            <input type="button" name="btn8" class="num" value="8" onclick="getValue('8')">
+            <input type="button" name="btn9" class="num" value="9" onclick="getValue('9')">
+            <input type="button" name="btnDiv" class="num oper" value="/" onclick="getValue('/')">
+            <br>
+            <input type="button" name="btn4" class="num" value="4" onclick="getValue('4')">
+            <input type="button" name="btn5" class="num" value="5" onclick="getValue('5')">
+            <input type="button" name="btn6" class="num" value="6" onclick="getValue('6')">
+            <input type="button" name="btnMulty" class="num oper" value="*" onclick="getValue('*')">
+            <br>
+            <input type="button" name="btn1" class="num" value="1" onclick="getValue('1')">
+            <input type="button" name="btn2" class="num" value="2" onclick="getValue('2')">
+            <input type="button" name="btn3" class="num" value="3" onclick="getValue('3')">
+            <input type="button" name="btnRest" class="num oper" value="-" onclick="getValue('-')">
+            <br>
+            <input type="button" name="btnPunt" class="num" value="." onclick="getValue('.')">
+            <input type="button" name="btn0" class="num" value="0" onclick="getValue('0')">
+            <input type="button" name="btnResul" class="num Spe" value="=" onclick="result()">
+            <input type="button" name="btnSum" class="num oper" value="+" onclick="getValue('+')">
+        </form>
+    </div>
+           
+</body>
+
+<script src=".\ScrisptsOfJS\tryTwo.js"></script>
+</html>
